@@ -28,7 +28,6 @@ JsonParser 클래스의 주요 기능은 다음과 같습니다:
 - __'bool update(string \_node_path, int/double/string \_value)'__: 노드 경로로 지정된 JSON 노드의 값을 업데이트합니다.
 - __'bool add(string \_node_path, int/double/string \_value)'__: 지정된 값으로 새 JSON 노드를 추가합니다(존재하지 않는 경우).
 - __'bool remove(string \_node_path)'__: 노드 경로로 지정된 JSON 노드를 제거합니다.
-
 6. 유틸리티 기능:
-- __'vector<string> split(string \_string, string \_delimiter)'__ : 구분자를 사용하여 문자열을 분할하고 토큰의 벡터를 반환합니다.
-- __'string replace_all(string &_str, const string& _from, const string& _to)'__: 문자열에서 부분 문자열의 모든 발생을 다른 부분 문자열로 바꿉니다.
+- __'vector\<string> split(string \_string, string \_delimiter)'__ : 구분자를 사용하여 문자열을 분할하고 토큰의 벡터를 반환합니다.
+- __'string replace_all(string &\_str, const string& \_from, const string& \_to)'__ : 문자열에서 부분 문자열의 모든 발생을 다른 부분 문자열로 바꿉니다.
